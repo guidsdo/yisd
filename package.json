@@ -1,6 +1,6 @@
 {
   "name": "yisd",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Yarn Install in SubDirectories. Yes, it's that simple. Use it like: `yisd [subdirs...]` (Example: `yisd client server scripts`)",
   "main": "lib/index.js",
   "scripts": {
