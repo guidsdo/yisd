@@ -1,9 +1,25 @@
 # Yarn Install in SubDirectories
-Yarn Install in SubDirectories. Yes, it's that simple. Use it like: `yisd [subdirs...]` (Example: `yisd client server scripts`)
+Yarn Install in SubDirectories. Yes, it's that simple. Use it like: `yisd [options] <directories...>` (Example: `yisd --async client server scripts`)
 
-[Click here for the npm version!](https://github.com/guidojo/nisd)
+[Click here for the general version!](https://www.npmjs.com/package/eisd)
 
-## Example package.json
+[Click here for the npm install version!](https://www.npmjs.com/package/nisd)
+
+## Usage
+```
+  Usage: yisd [options] <directories...>
+
+  Options:
+    -a, --async        Execute yarn async across all folders, output will be a mess
+    -e, --allowErrors  Allow errors (at default we stop when there is one). NOTE: always true when in async mode!
+    -h, --help         output usage information
+```
+
+## Examples
+Cli:
+`yisd --async client server testSetup/mockServer`
+
+Package.json:
 ```json
 {
   "name": "Root",
@@ -16,4 +32,4 @@ Yarn Install in SubDirectories. Yes, it's that simple. Use it like: `yisd [subdi
 ```
 
 ## Compatibility
-Works on Linux and Mac, should also work on Windows (will test it soon). If not, create an issue and I will fix it. :-)
+Works on Linux, Mac and Windows. If not, create an issue and I will fix it. :-)
