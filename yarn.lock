@@ -29,9 +29,9 @@ concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
 
-eisd@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/eisd/-/eisd-1.1.0.tgz#85b57b8d8be2489c9c95d32f931d7e60e8eb2232"
+eisd@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/eisd/-/eisd-1.2.0.tgz#cfee16d52f8fc7a682948420bd265c6948babe07"
   dependencies:
     colors "^1.2.1"
     commander "^2.15.1"

@@ -31,7 +31,7 @@
   "homepage": "https://github.com/guidojo/yisd#readme",
   "dependencies": {
     "commander": "^2.15.1",
-    "eisd": "1.1.0"
+    "eisd": "1.2.0"
   },
   "devDependencies": {
     "@types/node": "^6.0.87",

@@ -14,4 +14,4 @@ commander
 const allowErrors = commander.allowErrors === true;
 const async = commander.async === true;
 
-eisd("yarn", commander.args, "^warning", allowErrors, async);
+eisd("yarn", commander.args, allowErrors, async);
