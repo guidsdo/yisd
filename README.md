@@ -10,9 +10,11 @@ Yarn Install in SubDirectories. Yes, it's that simple. Use it like: `yisd [optio
   Usage: yisd [options] <directories...>
 
   Options:
-    -a, --async        Execute yarn async across all folders, output will be a mess
-    -e, --allowErrors  Allow errors (at default we stop when there is one). NOTE: always true when in async mode!
-    -h, --help         output usage information
+    -a, --async                             Execute yarn async across all folders, output will be a mess
+    -e, --allowErrors                       Allow errors (at default we stop when there is one). NOTE: always true when in async mode!
+    -d, --envDirectories [environment_key]  Environment variable that contains the directories, for example a package.json config var would be: npm_config_myVar
+    -v, --verbose                           More verbose output
+    -h, --help                              output usage information
 ```
 
 ## Examples
